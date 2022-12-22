@@ -304,11 +304,11 @@ img {
     font-size: 14px;
 }
 @media(min-width: 1440px) {
-    .landing .cont .list .name {
+    .landing .cont .list .nam {
         display: flex;
         flex-direction: column-reverse;
     }
-    .landing .cont .list .name h2::before {
+    .landing .cont .list .nam h2::before {
         content: "";
         position: absolute;
         top: 50%;
@@ -318,7 +318,7 @@ img {
         height: 2px;
         background-color: #C9A75D;
     }
-    .landing .cont .list .name h2::after {
+    .landing .cont .list .nam h2::after {
         content: "";
         position: absolute;
         top: 50%;
@@ -371,12 +371,12 @@ img {
 .landing .cont .list ul li.active {
     background-color: rgb(242, 214, 136);
 }
-.landing .cont .list .name img {
+.landing .cont .list .nam img {
     width: 95px;
     height: 95px;
 }
 @media(min-width: 1440px) {
-    .landing .cont .list .name img {
+    .landing .cont .list .nam img {
         width: 170px;
         height: 170px;
         margin-bottom: 35px;
